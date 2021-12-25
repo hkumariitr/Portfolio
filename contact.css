@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+*{
+    margin-right: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(0, 0, 0);
+    width: 13vw;
+    font-family: 'Pushster', cursive;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 60px;
+}
+
+.sidebar nav li{
+    list-style-type:none;
+    font-size: 25px;
+    padding :30px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:rgb(236, 24, 24);
+}
+.main{
+    background-color: rgba(185, 185, 179, 0.849);
+    width: 87vw;
+}
+
+.container{
+    display: flex;
+}
+
+.form {
+    width:100vw;
+    padding: 0 34px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.form h1{
+    padding-top: 70px;
+    padding-left: 50px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 50px;
+}
+
+.form form{
+    padding: 60px 50px;
+}
+.form form div{
+    font-size:20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    width:16vw;
+    border-radius:5px;
+    margin: 6px 0;
+    padding: 3px;
+
+}
+
+.form form div input{
+    width:26vw;
+    border-radius:5px ;
+    margin: 6px 0px 0px 0px ;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 12px;
+    font-family: 'Secular One', sans-serif;
+    color:rgb(151, 21, 226);
+    margin: 0px 5px
+}
+
+#form-check{
+    flex-direction: row;
+    size: 10px;
+    
+}
+#form-check input{
+    width: 24px;
+    margin: 10px 0;
+}
+
+#form-check label{
+    padding-top: 5px;
+    font-size:15px;
+}
+
+.buttons button {
+    margin-top: 30px;
+    padding:9px 5px;
+    border-radius: 15px;
+    color:white;
+    background-color:tomato;
+    font-weight:bold;
+    font-size:16px;
+    cursor:pointer;
+    margin-right: 30px;
+}
+
+.buttons button:hover{
+    color:tomato;
+    background-color:white;
+}

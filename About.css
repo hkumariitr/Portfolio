@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+*{
+    margin-right: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(0, 0, 0);
+    width: 13vw;
+    font-family: 'Pushster', cursive;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 60px;
+}
+
+.sidebar nav li{
+    list-style-type:none;
+    font-size: 25px;
+    padding :30px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:rgb(236, 24, 24);
+}
+.main{
+    background-color: rgba(185, 185, 179, 0.849);
+    width: 87vw;
+    height:50vh;
+}
+
+.container{
+    display: flex;
+}
+
+.buttons button{
+    margin-top: 10px;
+    padding:5px 10px;
+    border-radius: 22px;
+    color:white;
+    background-color:tomato;
+    font-weight:bold;
+    font-size:10px;
+    margin:0 3 px;
+    cursor:pointer;
+    margin-right: 30px;
+}
+
+.buttons button:hover{
+    color:tomato;
+    background-color:white;
+}
+
+.intro{
+    width:70vw;
+    padding: 15px 15px 15px 15px;
+    background-color: wheat;
+    margin:100px;
+    justify-content: center;
+}
+.content {
+    padding: 50px 50px;
+
+}
+.content h1 {
+    font-family: 'Pushster', cursive;
+    font-size:45px;
+}
+
+.content p{
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+}
